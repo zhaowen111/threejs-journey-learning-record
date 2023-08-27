@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue()],
   root: "src/",
   publicDir: "static/",
-  base: "./",
+  base: "/threejs-journey-learning-record/",
   server: {
     host: true,
     open: !isCodeSandbox, // Open if it's not a CodeSandbox
